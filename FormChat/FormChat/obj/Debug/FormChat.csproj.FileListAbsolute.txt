@@ -1,0 +1,10 @@
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.csprojResolveAssemblyReference.cache
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.Properties.Resources.resources
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.csproj.GenerateResource.Cache
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\bin\Debug\FormChat.exe.config
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\bin\Debug\FormChat.exe
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\bin\Debug\FormChat.pdb
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.exe
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.pdb
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.FormChat.resources
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\FormChat\FormChat\obj\Debug\FormChat.FormLogin.resources
