@@ -13,7 +13,7 @@ using System.Windows.Forms;
 namespace FormChat
 {
     public partial class FormChat : Form
-    {        
+    {
         static TcpClient client;
         public static NetworkStream stream;
         public static void Disconnect()
@@ -86,11 +86,31 @@ namespace FormChat
             InitializeComponent();
         }
 
-
+        public void Send()
+        {
+            if (textBoxMessage.Text != "")
+            {
+                SendMessage(textBoxMessage.Text);
+                listBoxChat.Items.Add("Вы: " + textBoxMessage.Text);
+                textBoxMessage.Clear();
+            }
+        }
         private void buttonOK_Click(object sender, EventArgs e)
         {
-            SendMessage(textBoxMessage.Text);            
-            textBoxMessage.Clear();
+            Send();
+        }
+
+        private void FormChat_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void textBoxMessage_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Send();
+            }
         }
     }
 }

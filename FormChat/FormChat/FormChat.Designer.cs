@@ -47,7 +47,7 @@
             this.textBoxMessage.Name = "textBoxMessage";
             this.textBoxMessage.Size = new System.Drawing.Size(523, 20);
             this.textBoxMessage.TabIndex = 1;
-            this.textBoxMessage.Text = "Введите сообщение";
+            this.textBoxMessage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxMessage_KeyDown);
             // 
             // buttonOK
             // 
@@ -69,6 +69,7 @@
             this.Controls.Add(this.listBoxChat);
             this.Name = "FormChat";
             this.Text = "Chat";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormChat_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

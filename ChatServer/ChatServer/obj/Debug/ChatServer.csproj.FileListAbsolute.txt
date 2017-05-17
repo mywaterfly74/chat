@@ -4,3 +4,9 @@ c:\users\computer\documents\visual studio 2017\Projects\ChatServer\ChatServer\bi
 c:\users\computer\documents\visual studio 2017\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
 c:\users\computer\documents\visual studio 2017\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.exe
 c:\users\computer\documents\visual studio 2017\Projects\ChatServer\ChatServer\obj\Debug\ChatServer.pdb
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\Проект\ChatServer\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\Проект\ChatServer\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\Проект\ChatServer\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\Проект\ChatServer\ChatServer\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\Проект\ChatServer\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\Computer\Documents\Visual Studio 2017\Projects\Проект\ChatServer\ChatServer\obj\Debug\ChatServer.pdb

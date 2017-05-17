@@ -56,7 +56,10 @@ namespace ChatServer
             byte[] data = Encoding.Unicode.GetBytes(message);
             for (int i = 0; i < clients.Count; i++)
             {
-                clients[i].Stream.Write(data, 0, data.Length); //передача данных                
+                if (clients[i].Id != id) // если id клиента не равно id отправляющего
+                {
+                    clients[i].Stream.Write(data, 0, data.Length); //передача данных
+                }
             }
         }
         // отключение всех клиентов
